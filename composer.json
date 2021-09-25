@@ -1,0 +1,21 @@
+{
+    "name": "magento2/php-sdk",
+    "description": "Magento 2 API SDK",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Magento\\": "Magento/src"
+        }
+    },
+    "repositories": [
+        {
+             "type": "composer",
+             "url": "https://packagist.org"
+        },
+        { 
+            "packagist": false 
+        }
+    ]
+}
