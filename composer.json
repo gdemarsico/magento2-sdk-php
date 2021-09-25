@@ -1,12 +1,20 @@
 {
     "name": "gdemarsico/magento2-php-sdk",
+    "type": "library",
     "description": "Magento 2 API SDK",
+    "keywords": ["magento", "api", "sdk"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gaston De Marsico"
+        }
+    ],
     "require": {
         "php": ">=5.3"
     },
     "autoload": {
         "psr-4": {
-            "Magento\\": "Magento/src"
+            "Magento2\\": "src"
         }
     },
     "repositories": [
