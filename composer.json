@@ -1,5 +1,5 @@
 {
-    "name": "magento2/php-sdk",
+    "name": "gdemarsico/magento2-php-sdk",
     "description": "Magento 2 API SDK",
     "require": {
         "php": ">=5.3"
